@@ -7,8 +7,8 @@
 <TextView
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Hello World, MainActivity"
-    />
+    android:text="Greetings, UW!"
+    android:id="@+id/mainText" />
 </LinearLayout>
 
 <!-- From: file:/Users/zachcamara/activityspy/src/main/res/layout/main.xml -->
