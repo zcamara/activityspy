@@ -13,6 +13,8 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        if(savedInstanceState != null)
+            Log.i(TAG, "Loading savedInstanceState: "+savedInstanceState.toString());
         logInfoEvent("Create");
     }
     @Override
